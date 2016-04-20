@@ -1,0 +1,8 @@
+# Stuff for Virtualenv
+.Python
+bin
+lib
+include
+
+#Emacs Turds
+*~
