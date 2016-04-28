@@ -1,0 +1,12 @@
+[Unit]
+Description=IOT BBQ Hardware Service
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+Group=users
+ExecStart=/home/pi/iot_bbq/start_hw.sh
+Restart=always
+[Install]
+WantedBy=multi-user.target
